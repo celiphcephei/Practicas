@@ -6,7 +6,7 @@ int multiplicacion(int, int);
 int multiplicacion_karatsuba(int, int);
 
 int main(){
-    int x = 4488, y = 2244; scanf("%d %d", &x, &y);
+    int x, y; scanf("%d %d", &x, &y);
     printf("%d\n", multiplicacion_karatsuba(x, y));
     return 0;
 }
