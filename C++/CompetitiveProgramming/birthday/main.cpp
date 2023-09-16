@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>                         
 using namespace std;
-typedef tuple<int, int, int> iii;                
+typedef tuple<int, int, int> iii;
 int main() {
     multiset<iii> birthdays;                       
     birthdays.emplace(5, 24, -1980);               
