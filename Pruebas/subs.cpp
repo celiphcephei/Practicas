@@ -2,7 +2,7 @@
 using namespace std;
 #define LSOne(S) ((S) & -(S))                    
 int main() {
-  int N = 2;                                     
+  int N = 10;                                     
   for (int i = 0; i < (1<<N); ++i) {
     int pos = i;
     while (pos) {
